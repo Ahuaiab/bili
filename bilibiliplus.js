@@ -11,7 +11,7 @@
 # 直播去广告
 ^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-room\/v1\/index\/getInfoByRoom url script-response-body https://raw.githubusercontent.com/Ahuaiab/bili/main/bili.js
 # 动态去广告
-^https?:\/\/api\.vc\.bilibili\.com\/dynamic_svr\/v1\/dynamic_svr\/dynamic_(history|new)\? url script-response-body https://raw.githubusercontent.com/Ahuaiab/bili/main/bili.jse
+^https?:\/\/api\.vc\.bilibili\.com\/dynamic_svr\/v1\/dynamic_svr\/dynamic_(history|new)\? url script-response-body https://raw.githubusercontent.com/Ahuaiab/bili/main/bili.js
 # 开屏去广告
 ^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list url script-response-body https://raw.githubusercontent.com/Ahuaiab/bili/main/bili.js
 # 标签页处理
